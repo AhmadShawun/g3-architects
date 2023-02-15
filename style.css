@@ -52,7 +52,8 @@ nav ul li {
     color: rgb(112, 112, 112);
 }
 
-.header-title button {
+.header-title button,
+.quick-section button {
     width: 150px;
     height: 50px;
     font-size: 1em;
@@ -67,11 +68,42 @@ nav ul li {
     margin-bottom: 40px;
 }
 
+/* main section styles start */
+/*----------------------------------
+    main images section start 
+-----------------------------------*/
+
+.images-section {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 150px;
+}
+
+.img-section {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.quick-section {
+    margin-left: 80px;
+    margin-top: 250px;
+}
+
+.quick-section article {
+    font-size: 12px;
+    width: 85%;
+    margin: 25px 0;
+}
+
+
 
 
 
 /*  breakpoints for small devies*/
 @media only screen and (max-width:576px) {
+
     /* header section breakpoints start*/
     .header-section {
         display: grid;
@@ -101,10 +133,48 @@ nav ul li {
         color: rgb(88, 86, 86);
         margin: 15px;
     }
+
     .header-main img {
         width: 90%;
         margin: 10px;
         padding: 10px;
     }
+
     /* header section breakpoints end*/
+
+    /* main section styles start */
+
+    /*----------------------------------
+    main images section start 
+-----------------------------------*/
+    .images-section {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .quick-section {
+        margin: 20px 100px;
+    }
+
+    .quick-section article {
+        font-size: 12px;
+        margin: 25px 0;
+    }
+
+    .quick-section button {
+        background-color: gray;
+        color: aliceblue;
+    }
+
+    /*----------------------------------
+    main images section end 
+-----------------------------------*/
+
 }
