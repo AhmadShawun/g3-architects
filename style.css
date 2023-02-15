@@ -216,7 +216,45 @@ nav ul li {
 /*----------------------------------
     main sponsors section end 
 -----------------------------------*/
-
+.customers{
+    margin: 0 200px;
+}
+.customers-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.customers-feedback{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 100px;
+}
+.customers-title h1{
+    font-size: 3em;
+}
+.customers-feedback h2{
+    font-size: 1em;
+}
+.customers-feedback p{
+    font-size: 12px;
+}
+.customers-name{
+    font-weight: 100;
+    padding: 10px;
+    color: rgb(24, 35, 44);
+    background-color: bisque;
+    display: flex;
+    border-radius: 15px 0 0;
+    justify-content: space-between;
+    
+}
+.customers-comment{
+    color: aliceblue;
+    background-color: rgb(91, 90, 88);
+    margin-bottom: 50px;
+    border-radius: 0 0 15px;
+    padding: 15px;
+}
 
 
 
@@ -393,4 +431,16 @@ nav ul li {
 /*----------------------------------
     main sponsor section end 
 -----------------------------------*/
+/*----------------------------------
+    customer support section start 
+-----------------------------------*/
+.customers{
+    margin: 0 25px;
+}
+.customers-feedback{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 100px;
+}
 }
