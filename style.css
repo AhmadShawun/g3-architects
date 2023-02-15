@@ -97,6 +97,61 @@ nav ul li {
     margin: 25px 0;
 }
 
+/*----------------------------------
+    main images section end 
+-----------------------------------*/
+/*----------------------------------
+    main features section start 
+-----------------------------------*/
+
+.features-section {
+    display: flex;
+    margin: 50px 200px;
+}
+
+.border {
+    margin-bottom: 25px;
+    padding: 0 20px;
+    font-size: 24px;
+    border-left: 5px solid orangered;
+}
+
+.features-section-title article {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.features-section-cetagory {
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.features-section-cetagory article {
+    font-size: 13px;
+    color: rgb(163, 161, 161);
+}
+
+.features-section-img img {
+    height: 750px;
+    margin-left: 100px;
+}
+
+.features-section-img button {
+    padding: 20px;
+    background-color: rgb(226, 95, 66);
+    border: none;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: -100px;
+    margin-left: 40px;
+    color: aliceblue;
+}
+
+/*----------------------------------
+    main features section end 
+-----------------------------------*/
 
 
 
@@ -175,6 +230,43 @@ nav ul li {
 
     /*----------------------------------
     main images section end 
+-----------------------------------*/
+/*----------------------------------
+    main features section start 
+-----------------------------------*/
+
+
+    .features-section{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-section-cetagory {
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 25px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .features-section-title article {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .features-section-img img {
+        margin: 10px;
+    }
+    .features-section-img button {
+        padding: 20px;
+        background-color: rgb(226, 95, 66);
+        border: none;
+        width: 250px;
+        height: 150px;
+        border-radius: 5px;
+        margin-top: -100px;
+        margin-left: 40px;
+        color: aliceblue;
+    }
+    /*----------------------------------
+    main features section end 
 -----------------------------------*/
 
 }
