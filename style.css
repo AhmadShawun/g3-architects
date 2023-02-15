@@ -216,6 +216,9 @@ nav ul li {
 /*----------------------------------
     main sponsors section end 
 -----------------------------------*/
+/*----------------------------------
+    main customer section start 
+-----------------------------------*/
 .customers{
     margin: 0 200px;
 }
@@ -255,6 +258,28 @@ nav ul li {
     border-radius: 0 0 15px;
     padding: 15px;
 }
+/*----------------------------------
+    main cutomer section end 
+-----------------------------------*/
+/*----------------------------------
+    footer section start
+-----------------------------------*/
+footer{
+    background-color: bisque;
+    margin: 50px 200px;
+    padding: 50px;
+    height: 20px;
+    border-radius: 15px;
+}
+footer p{
+    text-align: center;
+    justify-content: center;
+    color: gray;
+}
+
+/*----------------------------------
+    footer section end
+-----------------------------------*/
 
 
 
@@ -443,4 +468,8 @@ nav ul li {
     grid-template-columns: repeat(1,1fr);
     grid-column-gap: 100px;
 }
+/* footer */
+ footer{
+    margin: 20px;
+ }
 }
